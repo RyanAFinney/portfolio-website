@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Raleway");
+html, body {
+  height: 100%; }
+
+header {
+  background-color: #dadada;
+  text-align: center;
+  z-index: 5;
+  position: fixed;
+  width: 100%;
+  height: 5vh; }
+  header p {
+    color: #686666;
+    font-family: Raleway, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh; }
+
+.name {
+  background-color: #dadada; }
+
+.intro {
+  padding-top: 5vh;
+  background-color: #B94629;
+  height: 95vh;
+  position: relative;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center; }
+  .intro .tagline {
+    padding: 3%;
+    color: #faf7e1; }
+  .intro .code {
+    text-align: center;
+    width: 70%;
+    height: 70%;
+    margin-left: 15%;
+    background-color: #ccc;
+    padding-top: 1.3%;
+    border-radius: 5px;
+    font-family: Monaco, 'Courier New';
+    font-size: 12px;
+    height: 80%; }
+    .intro .code .console {
+      text-align: left;
+      background-color: #383737;
+      color: #dadada;
+      height: 100%;
+      line-height: 25px; }
+      .intro .code .console .question {
+        padding-left: 5%; }
+      .intro .code .console .answer {
+        padding-left: 10%;
+        color: #ccc; }
+
+a {
+  color: #5091C3;
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: underline; }
+
+a:visited {
+  color: #5091C3; }
+
+a:active {
+  color: #5091C3; }
+
+.right {
+  float: right;
+  font-style: italic; }
+
+.bold {
+  font-weight: 700;
+  font-size: 18px; }
+
+.resume {
+  background-color: #dddddd;
+  height: 195vh; }
+  .resume .tagline {
+    padding: 5%;
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0.2em;
+    text-transform: uppercase; }
+  .resume .education {
+    padding-left: 6%;
+    padding-right: 6%;
+    line-height: 30px; }
+    .resume .education .list-header {
+      font-size: 20px; }
+    .resume .education .tagline {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 12px;
+      padding-top: 3%;
+      padding-left: 0;
+      padding-bottom: 2%;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      text-align: left;
+      color: #333333;
+      border-bottom: 1px solid #CEC8C8; }
+    .resume .education .education-body {
+      padding-top: 3%;
+      font-family: Raleway, sans-serif;
+      padding-bottom: 3%; }
+      .resume .education .education-body .logo {
+        float: left;
+        display: block;
+        height: 8%;
+        width: 8%;
+        border-radius: 20%;
+        margin-right: 3%; }
+    .resume .education .classList {
+      list-style-type: circle;
+      padding-left: 10%; }
+  .resume .job-history {
+    background-color: #dddddd;
+    padding-left: 6%;
+    padding-right: 6%;
+    font-family: Raleway, sans-serif;
+    line-height: 30px; }
+    .resume .job-history .tagline {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 12px;
+      padding-top: 5%;
+      padding-left: 0;
+      padding-bottom: 3%;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      text-align: left;
+      color: #333333;
+      border-bottom: 1px solid #CEC8C8; }
+    .resume .job-history .job-body {
+      padding-top: 3%; }
+      .resume .job-history .job-body .job-desc {
+        width: 70%;
+        padding: 3% 15%;
+        line-height: 25px; }
+    .resume .job-history .logo {
+      padding-left: 0;
+      border-radius: 50%;
+      width: 70px;
+      height: 70px;
+      display: block;
+      float: left;
+      margin-right: 3%; }
+    .resume .job-history .disney-logo {
+      padding-left: 0;
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      margin-right: 3%;
+      float: left;
+      display: block;
+      background-color: white; }
+
+.contact-me {
+  padding-top: 1%;
+  padding-left: 3%;
+  background-color: #efefef;
+  height: 10vh;
+  width: 100vw;
+  position: relative;
+  font-family: Raleway, sans-serif;
+  color: #686666;
+  display: inline-block; }
+  .contact-me .li {
+    display: inline-block; }
+  .contact-me .sm-logo {
+    display: inline-block;
+    padding-top: 1%;
+    padding-right: 1%;
+    width: 2%;
+    float: left; }
+  .contact-me .copyright {
+    float: right;
+    opacity: 0.5;
+    padding-right: 5%;
+    padding-top: 3%; }
+
+/*# sourceMappingURL=main.css.map */
